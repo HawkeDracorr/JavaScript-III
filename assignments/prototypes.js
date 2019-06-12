@@ -162,15 +162,6 @@ function Humanoid(chara) {
   console.log(`Faction: ${archer.team}`); // Guild/faction X
   console.log(`destroyed: ${archer.destroy()}`);
 
-
-  // console.log(mage.takeDamage()); // Bruce took damage.
-  // console.log(archer.dimensions); // { length: 1, width: 2, height: 4 }
-  // console.log(swordsman.healthPoints); // 15
-  // console.log(swordsman.team); // The Round Table
-  // console.log(archer.language); // Elvish
-  // console.log(archer.greet()); // Liliana offers a greeting in Elvish.
-  // console.log(swordsman.destroy()); // Sir Mustachio was removed from the game.
-
   // Stretch task:
   // * Create Villain and Hero constructor functions that inherit from the Humanoid constructor function.
   // * Give the Hero and Villains different methods that could be used to remove health points from objects which could result in destruction if health gets to 0 or drops below 0;
